@@ -1,0 +1,32 @@
+Jim the Wizard, Level 1
+----------------------------------
+STR: 17 (2)
+DEX: 13 (1)
+CON: 15 (1)
+INT: 8 (-1)
+WIS: 9 (0)
+CHA: 11 (0)
+----------------------------------
+Max HP: 19 | Damage Die: d4
+Advanced Moves:
+----------------------------------
+LEARNED SPELL LIST
+Cantrips: Light, Prestidigitation, Unseen Servant
+Level 1: Magic Missile
+Level 3:
+Level 5:
+Level 7:
+Level 9:
+
+name = 'Jim'
+  class_name = 'Druid'
+  level = 1
+  attribute = {'str': 10, 'dex': 10, 'con': 10, 'int': 10, 'wis': 10, 'cha': 10}
+  max_hp = get_max_hp(class_name) + attribute['con']
+  damage_die = get_damage_die(class_name)
+  advanced_moves = []
+  level_1_spells = ""
+  level_3_spells = ""
+  level_5_spells = ""
+  level_7_spells = ""
+  level_9_spells = ""
